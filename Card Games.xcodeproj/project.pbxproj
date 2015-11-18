@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		31B2E5EE19E95AFA005AA054 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 31B2E5ED19E95AFA005AA054 /* main.c */; };
+		31B2E5F619E95B22005AA054 /* BlackJack.c in Sources */ = {isa = PBXBuildFile; fileRef = 31B2E5F519E95B22005AA054 /* BlackJack.c */; };
+		31B2E5F919E95B3A005AA054 /* Poker.c in Sources */ = {isa = PBXBuildFile; fileRef = 31B2E5F819E95B3A005AA054 /* Poker.c */; };
+		31B2E61219ED5189005AA054 /* Functions.c in Sources */ = {isa = PBXBuildFile; fileRef = 31B2E61019ED5189005AA054 /* Functions.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		31B2E5EA19E95AFA005AA054 /* Card Games */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Card Games"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B2E5ED19E95AFA005AA054 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		31B2E5F419E95B12005AA054 /* BlackJack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlackJack.h; sourceTree = "<group>"; };
+		31B2E5F519E95B22005AA054 /* BlackJack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BlackJack.c; sourceTree = "<group>"; };
+		31B2E5F719E95B2E005AA054 /* Poker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Poker.h; sourceTree = "<group>"; };
+		31B2E5F819E95B3A005AA054 /* Poker.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Poker.c; sourceTree = "<group>"; };
+		31B2E61019ED5189005AA054 /* Functions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Functions.c; sourceTree = "<group>"; };
+		31B2E61119ED5189005AA054 /* Functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Functions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				31B2E5ED19E95AFA005AA054 /* main.c */,
+				31B2E5F419E95B12005AA054 /* BlackJack.h */,
+				31B2E5F519E95B22005AA054 /* BlackJack.c */,
+				31B2E61019ED5189005AA054 /* Functions.c */,
+				31B2E61119ED5189005AA054 /* Functions.h */,
+				31B2E5F719E95B2E005AA054 /* Poker.h */,
+				31B2E5F819E95B3A005AA054 /* Poker.c */,
 			);
 			path = "Card Games";
 			sourceTree = "<group>";
@@ -118,6 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31B2E5F919E95B3A005AA054 /* Poker.c in Sources */,
+				31B2E61219ED5189005AA054 /* Functions.c in Sources */,
+				31B2E5F619E95B22005AA054 /* BlackJack.c in Sources */,
 				31B2E5EE19E95AFA005AA054 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
